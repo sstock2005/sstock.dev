@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="My Personal Website">
+    <meta name="keywords" content="Sam Stockstrom, sstock.dev, Terraria Network Protocol">
+    <meta name="author" content="Sam Stockstrom">
+    <style>
+      @font-face {
+        font-family: Poppins, sans-serif;
+        src: url(/assets/Poppins-Regular.ttf)
+      }
+
+      body {
+        background-color: #121212;
+        color: #fff;
+        font-family: Poppins, sans-serif;
+        margin: 0;
+        padding: 0
+      }
+
+      .poppins-regular {
+        font-weight: 500;
+        font-style: normal
+      }
+
+      #header {
+        text-align: center;
+        padding: 20px 0
+      }
+
+      #content {
+        background-color: color-mix(in srgb, #d1c4ff, #121212 90%);
+        padding: 20px;
+        margin: 20px auto;
+        width: 90%;
+        max-width: 800px;
+        border-radius: 5px;
+        font-weight: 600
+      }
+
+      .small-header {
+        font-size: 20px;
+        font-weight: 700
+      }
+
+      #header a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 700;
+        outline: 2px solid #fff;
+        padding: 6px;
+        margin: 0 5px;
+        display: inline-block;
+        margin-bottom: 10px
+      }
+
+      @media (max-width:600px) {
+        #content {
+          width: 85%;
+          padding: 15px;
+          margin-left: auto;
+          margin-right: auto
+        }
+
+        .small-header {
+          font-size: 18px
+        }
+
+        body {
+          font-size: 14px
+        }
+      }
+    </style>
+    <title>home - sstock.dev</title>
+  </head>
+  <body>
+    <h1 class="poppins-regular" style="text-align:center;padding-top:20px;margin-bottom:10px">sstock.dev</h1>
+    <p class="poppins-regular" style="text-align:center;margin-top:0">Sam Stockstrom</p>
+    <div id="header">
+      <a class="poppins-regular" href="/">home</a>
+      <a class="poppins-regular" href="/blog">blog</a>
+      <a class="poppins-regular" href="/cat">silly cat</a>
+      <a class="poppins-regular" href="/short">shorten url</a>
+    </div>
+    <div id="content">
+      <div id="about-me">
+        <h3 class="small-header">
+          <strong>about me</strong>
+        </h3>
+        <p class="poppins-regular" style="line-height:1.5">I am a 18 year old student pursuing software engineering at NDSU. I enjoy reverse engineering, volleyball, and one piece. I have been programming since 2020 and it has opened new doors for me. Some programming languages I have learned are Python, C#, Rust, C, and Java. I was the lead programming for <a class="poppins-regular" href="https://www.kaoticrobotics.org/" target="_blank" style="text-decoration:none;color:#fff;font-weight:700">Frazee's Robotics Team KAOTIC 4539</a> for 3 years. </p>
+      </div>
+      <div id="current-projects">
+        <h3 class="small-header">
+          <strong>current projects</strong>
+        </h3>
+        <p class="poppins-regular">
+          <a class="poppins-regular" href="https://github.com/sstock2005/TNPL" target="_blank" style="text-decoration:none;color:#fff;display:flex;align-items:center">
+            <img src="/assets/github-mark-white.webp" alt="github logo" width="29.4" height="28.8" style="margin-right:10px"> Terraria Network Protocol Library </a>
+        </p>
+      </div>
+      <div id="recent-posts">
+        <h3 class="small-header">
+          <strong>recent blog posts</strong>
+        </h3>
+        <p class="poppins-regular">crickets...</p>
+      </div>
+    </div>
+  </body>
+</html>
